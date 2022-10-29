@@ -16,8 +16,6 @@ public class ExecutiveMeeting extends Approver {
 
     @Override
     public void approve(int id, double cost, Type type) {
-
-//        System.out.println("Purchase with id " + id + " that costs " + cost + " requires an approval of executive meeting.");
         System.out.printf("Purchase with id %d that costs %.2f requires an approval of executive meeting.\n",id, cost );
     }
 
