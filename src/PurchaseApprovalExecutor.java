@@ -18,12 +18,15 @@ public class PurchaseApprovalExecutor {
         manager.approve(2, 5000, Type.PC);
         manager.approve(3, 5000, Type.PC);
         manager.approve(4, 3000, Type.CLERICAL);
-        manager.approve(5, 800, Type.CONSUMABLES);
-        manager.approve(6, 300, Type.CLERICAL);
-        manager.approve(7, 300, Type.GAMING);
-        manager.approve(8, 3000, Type.GADGETS);
-        manager.approve(9, 5000, Type.GAMING);
-        manager.approve(10, 2500, Type.PC);
+
+
+        // Checked with a few more examples
+//        manager.approve(5, 800, Type.CONSUMABLES);
+//        manager.approve(6, 300, Type.CLERICAL);
+//        manager.approve(7, 300, Type.GAMING);
+//        manager.approve(8, 3000, Type.GADGETS);
+//        manager.approve(9, 5000, Type.GAMING);
+//        manager.approve(10, 2500, Type.PC);
 
     }
 }
